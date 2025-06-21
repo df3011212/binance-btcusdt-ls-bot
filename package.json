@@ -1,0 +1,17 @@
+{
+  "name": "binance-btcusdt-ls-bot",
+  "version": "1.0.0",
+  "description": "幣安 BTC 永續合約多空比推播機器人",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "form-data": "^4.0.0",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^22.7.0"
+  }
+}
